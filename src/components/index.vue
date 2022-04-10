@@ -2,9 +2,8 @@
     
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Inventore veritatis et</h1>
-        <p class="col-md-8 fs-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        <button class="btn btn-primary btn-lg" type="button">Read more</button>
+        <h1 class="display-5 fw-bold">Enhle Nyathi</h1>
+        <img :src="img" alt="" srcset="">
       </div>
     </div>
 
@@ -27,3 +26,12 @@
 
 
 </template>
+<script>
+export default {
+  data(){
+    return {
+      img : 'https://unsplash.com/photos/A5E-ym6WyGM'
+    }
+  }
+}
+</script>
